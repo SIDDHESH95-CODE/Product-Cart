@@ -1,16 +1,120 @@
-# React + Vite
+# React Card Components using Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project demonstrating how to create reusable **Card components** and render multiple cards dynamically using **React Props**.
 
-Currently, two official plugins are available:
+This project focuses on understanding how data can be passed from a parent component to child components and displayed in a clean card-based UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project displays multiple cards on the screen using a reusable React component. Each card receives its data through **props**, making the component flexible and easy to reuse.
 
-## Expanding the ESLint configuration
+The goal of this project is to practice:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Component-based architecture
+* Passing data using props
+* Rendering multiple components dynamically
+* Structuring clean and readable React code
+
+---
+
+## 🚀 Features
+
+* Reusable **Card Component**
+* Dynamic data rendering using **props**
+* Clean and simple UI layout
+* Beginner-friendly React project structure
+* Easy to extend with additional cards or features
+
+---
+
+## 🛠️ Technologies Used
+
+* React.js
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+project-folder
+│
+├── src
+│   ├── components
+│   │   └── Card.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles.css
+│
+└── package.json
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally:
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+2. Navigate to the project folder
+
+```
+cd your-repo-name
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Start the development server
+
+```
+npm run dev
+```
+
+or
+
+```
+npm start
+```
+
+---
+
+## 📖 Learning Outcome
+
+Through this project, I practiced:
+
+* Creating reusable React components
+* Passing and using props effectively
+* Structuring a small React project
+* Uploading and managing code using GitHub
+
+---
+
+## 🔮 Future Improvements
+
+* Add responsive styling
+* Fetch card data from an API
+* Add animations or hover effects
+* Implement filtering or search functionality
+
+---
+
+## 👨‍💻 Author
+
+Created by **Siddhesh**
+
+If you like this project, feel free to ⭐ the repository.
